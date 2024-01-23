@@ -97,7 +97,7 @@ a:visited {
     color: #1098ad;
 }
 
-a:active {
+/* a:active {
     background-color: black;
     font-style: italic;
-}
+} */
