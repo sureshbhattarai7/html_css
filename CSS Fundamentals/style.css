@@ -75,14 +75,29 @@ aside {
 }
 
 /* Select first list - pseudo class */
-li:first-child{
+li:first-child {
     font-weight: bold;
 }
 
-li:last-child{
+li:last-child {
     font-style: italic;
 }
 
 /* li:nth-child(2){
     color: red;
 } */
+
+a:link {
+    color: #1098ad;
+    text-decoration: none;
+}
+
+a:visited {
+    /* color: #777; */
+    color: #1098ad;
+}
+
+a:active {
+    background-color: black;
+    font-style: italic;
+}
