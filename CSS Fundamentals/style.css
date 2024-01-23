@@ -94,10 +94,10 @@ a:link {
 
 a:visited {
     /* color: #777; */
-    color: #1098ad;
+    color: #109810;
 }
 
-/* a:active {
+a:active {
     background-color: black;
     font-style: italic;
-} */
+}
