@@ -12,6 +12,13 @@ body {
   position: relative;
 }
 
+.container {
+  width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
 h1,
 h2,
 h3,
