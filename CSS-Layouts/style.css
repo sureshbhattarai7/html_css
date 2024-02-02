@@ -326,4 +326,10 @@ footer{
 .author-header{
   display: flex;
   align-items: center;
+  margin-bottom: 15px;
+}
+
+.author{
+  margin-bottom: 0px;
+  margin-left: 15px;
 }
