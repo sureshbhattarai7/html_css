@@ -269,14 +269,15 @@ h2::before {
   } */
 
 
-/* FLOATS */
+/* 
+FLOATS 
 .author-img{
   float: left;
   margin-bottom: 20px;
 }
 
 .author {
-  /* padding-left: 80px; */
+  padding-left: 80px; 
   margin-top: 10px;
   float: left;
   margin-left: 20px;
@@ -312,4 +313,17 @@ aside{
 
 footer{
   clear: both;
+}
+*/
+
+/* FLEXBOX */
+.main-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.author-header{
+  display: flex;
+  align-items: center;
 }
