@@ -11,6 +11,11 @@ body{
     position: relative;
 }
 
+.container{
+    margin: 0 auto;
+    width: 1400px;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -46,7 +51,7 @@ body{
 nav a{
     display: inline-block;
     text-decoration: none;
-    margin-right: 25px;
+    margin-right: 10px;
     color: #222;
 }
 
@@ -56,7 +61,7 @@ nav a:active{
 
 nav a:hover{
     display: inline-flex;
-    color: #0f6eb1;
+    color: blue;
     transition: 1s;
 }
 
@@ -89,6 +94,108 @@ nav a:hover{
 }
 
 .in-discussion a:hover{
+    color: #0f6eb1;
+    transition: 1s;
+}
+
+.article-1{
+    display: flex;
+    border-bottom: 1px solid #222;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    flex: 1;
+}
+.article-1 a{
+    text-decoration: none;
+    color: #222;
+}
+
+.article-1 a:hover{
+    color: #0f6eb1;
+    transition: 1s;
+}
+
+.article-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.article-2 a{
+    display: flex;
+    text-decoration: none;
+    color: #222;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.article-2 a:hover{
+    color: #0f6eb1;
+    transition: 1s;
+}
+
+.article-2 img{
+    width: 650px;
+}
+
+.article-3{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.article-3 a{
+    color: #222;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.article-3 img{
+    width: 650px;
+    /* margin-right: 100px; */
+}
+
+.article-12{
+    display: flex;
+}
+
+.article-4 a{
+    text-decoration: none;
+    color: #222;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.article-4 img{
+    width: 1200px;
+    height: auto;
+}
+
+.news{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.news-1, .news-2, .news-3, .news-4{
+    display: flex;
+}
+
+.news img{
+    width: 200px;
+    height: auto;
+}
+
+.news a{
+    text-decoration: none;
+    color: #222;
+}
+
+.news a:hover{
     color: #0f6eb1;
     transition: 1s;
 }
