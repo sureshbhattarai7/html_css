@@ -43,7 +43,7 @@ body{
     text-align: center;
 }
 
-nav a:link{
+nav a{
     display: inline-block;
     text-decoration: none;
     margin-right: 25px;
@@ -56,6 +56,39 @@ nav a:active{
 
 nav a:hover{
     display: inline-flex;
-    color: blue;
+    color: #0f6eb1;
+    transition: 1s;
 }
 
+.in-discussion{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discussion{
+    color: #0f6eb1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.in-discussion a{
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #222;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.in-discussion a:hover{
+    color: #0f6eb1;
+    transition: 1s;
+}
