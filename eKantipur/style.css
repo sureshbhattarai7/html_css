@@ -227,3 +227,39 @@ nav a:hover{
     width: 250px;
     height: auto;
 }
+
+.article{
+    display: flex;
+}
+
+.thought img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.thought{
+    display: inline-block;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.thought a{
+    text-decoration: none;
+    color: #222;
+}
+
+.thought p{
+    color: #666;
+    margin:15px;
+}
+
+.thought li{
+    list-style: none;
+}
+
+#thought{
+    color: #0f6eb1;
+    font-size: 22px;
+}
+
